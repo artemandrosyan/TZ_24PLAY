@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UsefulBlock : MonoBehaviour, IPoolElement
 {
-    private const float DELAY_FOR_SET_GRAVITY = 0.5f;
+    private const float DELAY_FOR_SET_GRAVITY = 0.2f;
     private const float DELAY_FOR_DEACTIVATE = 10f;
     public Action<GameObject> ObstacleAttached;
     public Action<GameObject> CubeStacked;
